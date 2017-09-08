@@ -80,17 +80,17 @@
 	
 	<repositories>
 	 <repository>
-	  <id>vineetmanohar-nexus</id>
-	  <name>vineetmanohar</name>
+	  <id>trident</id>
+	  <name>trident</name>
 	  <url>http://localhost:8080/nexus/content/groups/public</url>
 	  <releases>
 	   <enabled>true</enabled>
 	  </releases>
 
-	  <snapshots>
+	  <!-- <snapshots>
 	   <enabled>true</enabled>
 	  </snapshots>
-	 </repository>
+	 </repository> -->
 	</repositories>
 	
 	<!-- download plugins from this repo -->
