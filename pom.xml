@@ -74,14 +74,14 @@
 	 <repository>
 	  <id>vineetmanohar-nexus</id>
 	  <name>vineetmanohar nexus</name>
-	  <url>dav:http://nexus.vineetmanohar.com/nexus/content/repositories/releases</url>
+	  <url>dav:http://localhost:8080/nexus/content/repositories/releases</url>
 	 </repository>
 
 	 <!-- Publish the versioned releases here -->
 	 <snapshotRepository>
 	  <id>vineetmanohar-nexus</id>
 	  <name>vineetmanohar nexus</name>
-	  <url>dav:http://nexus.vineetmanohar.com/nexus/content/repositories/snapshots</url>
+	  <url>dav:http://localhost:8080/nexus/content/repositories/snapshots</url>
 	 </snapshotRepository>
 	</distributionManagement>
 	
@@ -89,7 +89,7 @@
 	 <repository>
 	  <id>vineetmanohar-nexus</id>
 	  <name>vineetmanohar</name>
-	  <url>http://nexus.vineetmanohar.com/nexus/content/groups/public</url>
+	  <url>http://localhost:8080/nexus/content/groups/public</url>
 	  <releases>
 	   <enabled>true</enabled>
 	  </releases>
@@ -105,7 +105,7 @@
 	 <pluginRepository>
 	  <id>vineetmanohar-nexus</id>
 	  <name>vineetmanohar</name>
-	  <url>http://nexus.vineetmanohar.com/nexus/content/groups/public</url>
+	  <url>http://localhost:8080/nexus/content/groups/public</url>
 	  <releases>
 	   <enabled>true</enabled>
 	  </releases>
