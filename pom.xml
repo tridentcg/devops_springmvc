@@ -89,8 +89,8 @@
 
 	  <!-- <snapshots>
 	   <enabled>true</enabled>
-	  </snapshots>
-	 </repository> -->
+	  </snapshots>-->
+	 </repository> 
 	</repositories>
 	
 	<!-- download plugins from this repo -->
