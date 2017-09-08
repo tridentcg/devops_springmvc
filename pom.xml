@@ -69,21 +69,14 @@
 		</plugins>
 	</build>
 	
+	
+	
 	<distributionManagement>
-	 <!-- Publish the versioned releases here -->
-	 <repository>
-	  <id>vineetmanohar-nexus</id>
-	  <name>vineetmanohar nexus</name>
-	  <url>dav:http://localhost:8080/nexus/content/repositories/releases</url>
-	 </repository>
-
-	 <!-- Publish the versioned releases here -->
-	 <snapshotRepository>
-	  <id>vineetmanohar-nexus</id>
-	  <name>vineetmanohar nexus</name>
-	  <url>dav:http://localhost:8080/nexus/content/repositories/snapshots</url>
-	 </snapshotRepository>
-	</distributionManagement>
+  <repository>
+    <id>trident</id>
+    <url>http://localhost:8080/nexus/content/repositories/trident</url>
+  </repository>
+</distributionManagement>
 	
 	<repositories>
 	 <repository>
